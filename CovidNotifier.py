@@ -21,6 +21,7 @@ if (covidData != None):
         #message of the notification
         message = "Total Cases: {totalcases}\nToday Cases: {todaycases}\nToday Deaths: {todaydeaths}\nTotal Active: {active}".format( totalcases = data['cases'], todaycases = data['todayCases'], todaydeaths = data['todayDeaths'], active = data['active']),
         #app icon
+        #download covid.ico from repo
         app_icon = "covid.ico",
         #stays for 50 sec in notifications
         timeout = 50
